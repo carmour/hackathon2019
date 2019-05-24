@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+.sideBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 3px grey solid;
+  height: 100vh;
+  position: fixed;
+  width: 100px;
+}
+
+.main__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.relevant__page {
+  background: grey;
+  height: 4000px;
+  margin-left: 103px;
+}
+
+section {
+  margin-left: 103px;
+}
+/*# sourceMappingURL=App.css.map */

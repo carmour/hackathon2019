@@ -1,2 +1,19 @@
 @import "./partials/colors";
 @import "./partials/fonts";
+
+@import './partials/sideBar';
+
+.main__page {
+    display: flex;
+    flex-direction: row;
+}
+
+.relevant__page {
+    background: grey;
+    height: 4000px;
+    margin-left: 103px;
+}
+
+section {
+    margin-left: 103px;
+}

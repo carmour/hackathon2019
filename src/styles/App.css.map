@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,cAAc;EAC5B,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,KAAK;CAEf;;AHFD,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB;;AAED,AAAA,eAAe,CAAC;EACZ,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,MAAM;EACd,WAAW,EAAE,KAAK;CACrB;;AAED,AAAA,OAAO,CAAC;EACJ,WAAW,EAAE,KAAK;CACrB",
     "sources": [
         "App.scss",
         "partials/_colors.scss",
-        "partials/_fonts.scss"
+        "partials/_fonts.scss",
+        "partials/_sideBar.scss"
     ],
     "names": [],
     "file": "App.css"
