@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "App.scss",
+        "partials/_colors.scss",
+        "partials/_fonts.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}
