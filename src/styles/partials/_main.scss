@@ -1,0 +1,48 @@
+.main {
+  font-family: Aller;
+  margin-right: 47px;
+  margin-left: 47px;
+  margin-top: 60px;
+  color: #727272;
+
+  .image__row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 4px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image__component {
+    width: 100%;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-bottom: 52px;
+    margin-top: 60px;
+  }
+
+  .image__component--margin {
+    margin-right: 40px;
+  }
+
+  .image__description {
+    font-size: 22px;
+  }
+
+  .card--flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

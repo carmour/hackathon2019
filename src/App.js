@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './styles/App.css';
 import { Link, Switch, Route } from 'react-router-dom';
@@ -8,6 +9,8 @@ import Lifestyle from './components/Lifestyle';
 import Technology from './components/Technology';
 import World from './components/World';
 import SocMed from './components/SocMed';
+import Main from "./components/Main";
+import Header from "./components/Header";
 
 
 
@@ -16,6 +19,10 @@ function App() {
     <div className="main__page">
       <div className='sideBar'>
         <SideBar />
+        <div className="margin--left">
+          <Header />
+          <Main />
+        </div>
       </div>
       <Switch>
         <Route path='/' exact component={All} />
@@ -27,7 +34,6 @@ function App() {
         <Route path='/socmed' component={SocMed} />
       </Switch>
 
-      {/* <div className="relevant__page">relevant page</div> */}
 
     </div>
   );

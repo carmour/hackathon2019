@@ -1,6 +1,12 @@
 @import "./partials/colors";
 @import "./partials/fonts";
 
+@import "./partials/header";
+@import "./partials/main";
+
+.margin--left {
+  margin-left: 260px;
+}
 @import './partials/sideBar';
 @import './partials/bottomHalf';
 
@@ -20,3 +26,4 @@
 // section {
 //     margin-left: 103px;
 // }
+
