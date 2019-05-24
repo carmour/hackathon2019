@@ -1,19 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Logo from '../assets/desktop-hd.svg'
 
 function SideBar() {
     return (
         <div>
             <div>
-                <Link to='/page1'>
-                    <div>page1</div>
-                </Link>
-                <Link to='/page2'>
-                    <div>page2</div>
-                </Link>
-                <Link to='/page3'>
-                    <div>page3</div>
-                </Link>
+                <div>
+                    <img src={Logo}></img>
+                </div>
+                <div className='sideBar__title'>Display information by: </div>
+                <div className='sideBar__categories'>
+                    <Link to='/all'>
+                        <div className='sideBar__category'>All</div>
+                    </Link>
+                    <Link to='/entertainment'>
+                        <div className='sideBar__category'>Entertainment</div>
+                    </Link>
+                    <Link to='/lifestyle'>
+                        <div className='sideBar__category'>Lifestyle</div>
+                    </Link>
+                    <Link to='/technology'>
+                        <div className='sideBar__category'>Technology</div>
+                    </Link>
+                    <Link to='/world'>
+                        <div className='sideBar__category'>World</div>
+                    </Link>
+                    <Link to='/socmed'>
+                        <div className='sideBar__category'>SocMed</div>
+                    </Link>
+                </div>
             </div>
         </div>
     )

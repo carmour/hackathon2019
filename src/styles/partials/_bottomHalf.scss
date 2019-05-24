@@ -1,0 +1,42 @@
+.bottomHalf {
+    // margin-left: 103px;
+    display: flex;
+    margin-top: 80px;
+    &__top {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: space-between;
+        &--left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        &--title {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 15px;
+        }
+        &--images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        &--imageLeft {
+            width: 75px;
+            background: lightblue;
+        }
+        &--imageRight {
+            width: 75px;
+            background: coral;
+        }
+        &--right {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+    }
+    // &__bottom {
+
+    // }
+}
