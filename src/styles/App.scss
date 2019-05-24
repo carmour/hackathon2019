@@ -1,2 +1,22 @@
 @import "./partials/colors";
 @import "./partials/fonts";
+
+@import './partials/sideBar';
+@import './partials/bottomHalf';
+
+.main__page {
+    display: flex;
+    flex-direction: row;
+}
+
+// html {
+//     font-family: aller;
+// }
+
+.page1 {
+    margin-left: 103px;
+    width: 100%;
+}
+// section {
+//     margin-left: 103px;
+// }
