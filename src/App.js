@@ -19,14 +19,15 @@ function App() {
     <div className="main__page">
       <div className='sideBar'>
         <SideBar />
-        <div className="margin--left">
-          <Header />
-          <Main />
-        </div>
+      </div>
+      <div className="margin--left">
+        {/* <Header />
+        <Main /> */}
+
       </div>
       <Switch>
-        <Route path='/' exact component={All} />
-        <Route path='/all' exact component={All} />
+        <Route path='/' exact component={Entertainment} />
+        <Route path='/all' exact component={Entertainment} />
         <Route path='/entertainment' component={Entertainment} />
         <Route path='/lifestyle' component={Lifestyle} />
         <Route path='/technology' component={Technology} />

@@ -12,22 +12,22 @@ function SideBar() {
                 <div className='sideBar__title'>Display information by: </div>
                 <div className='sideBar__categories'>
                     <Link to='/all'>
-                        <div className='sideBar__category'>All</div>
+                        <div className='sideBar__category'>Home</div>
                     </Link>
                     <Link to='/entertainment'>
                         <div className='sideBar__category'>Entertainment</div>
                     </Link>
-                    <Link to='/lifestyle'>
-                        <div className='sideBar__category'>Lifestyle</div>
-                    </Link>
-                    <Link to='/technology'>
-                        <div className='sideBar__category'>Technology</div>
-                    </Link>
-                    <Link to='/world'>
-                        <div className='sideBar__category'>World</div>
-                    </Link>
                     <Link to='/socmed'>
                         <div className='sideBar__category'>SocMed</div>
+                    </Link>
+                    <Link to='/entertainment'>
+                        <div className='sideBar__category'>Lifestyle</div>
+                    </Link>
+                    <Link to='/entertainment'>
+                        <div className='sideBar__category'>Technology</div>
+                    </Link>
+                    <Link to='/entertainment'>
+                        <div className='sideBar__category'>World</div>
                     </Link>
                 </div>
             </div>

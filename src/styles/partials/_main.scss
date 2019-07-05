@@ -1,7 +1,7 @@
 .main {
   font-family: Aller;
   margin-right: 47px;
-  margin-left: 47px;
+  margin-left: 280px;
   margin-top: 60px;
   color: #727272;
 
@@ -14,10 +14,16 @@
     font-size: 30px;
     border: 1px black solid;
     border-radius: 4px;
-    height: 492px;
+    // height: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
+    // background: url(../assets/entertainment_positive.png);
+    height: 600px;
+    width: 600px;
+
+    // max-width: 500px;
+    // max-height: 500px;
   }
 
   .image__component {
@@ -42,6 +48,35 @@
   }
 
   .card--flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.data {
+  font-family: Aller;
+  color: #727272;
+  margin-left: 280px;
+  h3 {
+    font-size: 40px;
+    font-family: Aller;
+    font-weight: bold;
+    color: grey;
+  }
+
+  .data__number {
+    font-size: 80px;
+    font-family: Aller;
+    font-weight: bold;
+  }
+
+  .data__status {
+    font-family: Aller;
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .card__card {
     display: flex;
     justify-content: space-evenly;
   }

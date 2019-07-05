@@ -1,11 +1,16 @@
 import React from 'react'
-import BottomHalf from './BottomHalf'
+import HeaderEntertainment from './HeaderEntertainment'
+import MainEntertainment from './MainEntertainment'
+import BottomHalfEntertainment from './BottomHalfEntertainment'
+import EntertainmentData from './EntertainmentData'
 
 function Entertainment() {
     return (
         <section className='page1'>
-            this is entertainment
-            <BottomHalf />
+            <HeaderEntertainment />
+            <MainEntertainment />
+            {/* <BottomHalfEntertainment /> */}
+            <EntertainmentData />
         </section>
     )
 }

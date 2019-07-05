@@ -1,11 +1,16 @@
 import React from 'react'
-import BottomHalf from './BottomHalf'
+import BottomHalfSocMed from './BottomHalfSocMed'
+import HeaderSocMed from './HeaderSocMed'
+import MainSocMed from './MainSocMed'
+import SocMedData from './SocMedData'
 
 function SocMed() {
     return (
         <section className='page1'>
-            this is SocMed
-            <BottomHalf />
+            <HeaderSocMed />
+            <MainSocMed />
+            {/* <BottomHalfSocMed /> */}
+            <SocMedData />
         </section>
     )
 }

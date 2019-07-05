@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import BottomHalf from './BottomHalf';
 
 export default function Main() {
   return (
@@ -27,6 +28,7 @@ export default function Main() {
           </p>
         </div>
       </div>
+      {/* <BottomHalf /> */}
       <div className="card--flex">
         <Card />
         <Card />
